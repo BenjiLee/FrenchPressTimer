@@ -2,6 +2,7 @@ package benji.app.frenchpresstimer;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -132,6 +133,9 @@ public class MainActivity extends AppCompatActivity {
         currentRingtone.play();
         Vibrator v = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
         v.vibrate(500);
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivity(intent);
     }
 
     private String formatTime(long millis) {
