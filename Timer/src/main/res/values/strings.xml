@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">French Press Timer</string>
     <string name="step1">1. Pour water to bloom and...</string>
-    <string name="step2">2. Wait for %1$s... Add water and stir.</string>
+    <string name="step2">2. Wait for %1$s... Add more water and stir.</string>
     <string name="start_timer">Start Brewing!</string>
-    <string name="step3">3. Wait for %1$s... Pour and enjoy!</string>
+    <string name="step3">3. Wait for %1$s... Press, pour and enjoy!</string>
     <string name="reset_timer">Reset Timer</string>
     <string name="dismiss">YUM!</string>
     <string name="step3timer">4:00</string>
